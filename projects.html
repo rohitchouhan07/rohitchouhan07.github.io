@@ -19,6 +19,23 @@
       <a href="https://github.com/rohitchouhan07">Github</a>
 </div>
 <br>
+<h3>Secure Trash Bin File System</h3>
+<p>
+This is a file system developed on top of WrapFS, which is a
+pass-through file system for Linux. This was developed as a kernel lodable module written in Linux
+kernel style C, when mounted for a particular directory it enables a trash-bin like functionality.
+Whenever a file is deleted it would encrypt it and move it to a trash folder. This is achieved by
+leveraging WrapFS’s concept of upper and lower level objects. VFS layer would think that WrapFS
+is the actual filesystem while the filesystem like Ext4 would think of WrapFS as the VFS layer.
+This added layer of indirecction allows us to add or modify the filesystem objects
+<br>
+
+<h3>Visualization Dashboard</h3>
+<p>
+Developed a data visualization dashboard using D3 Javascript library. It was used to analyze various development factors from United Nation datasets. The
+dashboard made use of bar chart, time series, choropleth, PCP and MDS.
+<br>
+<a href="https://youtu.be/qJW1OtDJB9M">Link to the video</a>
 
 <h3>Safex</h3>
 <p>
